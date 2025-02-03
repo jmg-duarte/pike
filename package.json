@@ -1,0 +1,45 @@
+{
+  "name": "pike",
+  "displayName": "Pike",
+  "description": "A light theme for VSCode.",
+  "publisher": "jmg-duarte",
+  "version": "0.0.1",
+  "icon": "static/logo/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmg-duarte/boavista"
+  },
+  "homepage": "https://github.com/jmg-duarte/boavista",
+  "bugs": {
+    "url": "https://github.com/jmg-duarte/boavista/issues"
+  },
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pike",
+        "uiTheme": "vs",
+        "path": "./themes/Pike-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.21.1"
+  },
+  "configurationDefaults": {
+    "editor.semanticHighlighting.enabled": true
+  },
+  "scripts": {
+    "package": "vsce package",
+    "login": "vsce login jmg-duarte",
+    "publish": "vsce publish && git push && git push --tags",
+    "patch": "npm version patch -m 'release: %s'",
+    "minor": "npm version minor -m 'release: %s'",
+    "major": "npm version major -m 'release: %s'"
+  }
+}
