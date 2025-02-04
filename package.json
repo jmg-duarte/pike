@@ -22,6 +22,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Walleye",
+        "uiTheme": "vs",
+        "path": "./themes/Walleye-color-theme.json"
+      },
+      {
         "label": "Pike",
         "uiTheme": "vs",
         "path": "./themes/Pike-color-theme.json"
