@@ -7,11 +7,11 @@
   "icon": "static/logo/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmg-duarte/boavista"
+    "url": "https://github.com/jmg-duarte/pike"
   },
-  "homepage": "https://github.com/jmg-duarte/boavista",
+  "homepage": "https://github.com/jmg-duarte/pike",
   "bugs": {
-    "url": "https://github.com/jmg-duarte/boavista/issues"
+    "url": "https://github.com/jmg-duarte/pike/issues"
   },
   "engines": {
     "vscode": "^1.65.0"
