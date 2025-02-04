@@ -60,7 +60,8 @@
     "editorInlayHint.background": "#E4E4CA4c",
     "editorInlayHint.foreground": "#000000c0",
     "editorLineNumber.activeForeground": "#000000",
-    "editorLineNumber.foreground": "#56AAAA8f",
+    // slightly darker variation than the border because we're not animals
+    "editorLineNumber.foreground": "#d2d2c2",
     "editorRuler.foreground": "#E4E4CA90",
     "editorStickyScrollHover.background": "#EEED9Ecf",
     "editorSuggestWidget.selectedBackground": "#F5F5E1",
@@ -86,7 +87,7 @@
     "list.inactiveSelectionForeground": "#000000",
     "menu.background": "#FBFBE6",
     "menu.foreground": "#000000",
-    "menu.selectionBackground": "#F3CFBA",
+    "menu.selectionBackground": "#FBFBE6",
     "menu.selectionForeground": "#000000",
     "notebook.cellBorderColor": "#E4E4CA",
     "notebook.cellEditorBackground": "#FBFBE6",
@@ -103,7 +104,8 @@
     "peekView.border": "#56AAAA",
     "peekViewEditor.background": "#FBFBE6",
     "peekViewResult.background": "#F5F5E1",
-    "peekViewResult.selectionBackground": "#F3CFBA",
+    "peekViewResult.matchHighlightBackground": "#EEED9E",
+    "peekViewResult.selectionBackground": "#FBFBE6",
     "peekViewResult.selectionForeground": "#000000",
     "peekViewTitle.background": "#F5F5E1",
     "pickerGroup.border": "#E4E4CA",
@@ -158,59 +160,5 @@
     "gitlens.gutterBackgroundColor": "#F5F5E100",
     "gitlens.gutterForegroundColor": "#000000",
     "gitlens.trailingLineForegroundColor": "#00000070"
-  },
-  "semanticHighlighting": true,
-  "semanticTokenColors": {
-    // Functions / Methods
-    "magicFunction": {
-      "fontStyle": "italic"
-    },
-    // Function Parameters
-    "*.controlFlow": {
-      "fontStyle": "bold"
-    },
-    "*.unsafe": {
-      "fontStyle": "bold"
-    },
-    "*.consuming": {
-      "fontStyle": "italic"
-    },
-    "*.mutable": {
-      "fontStyle": "underline"
-    },
-    // They're usually upper case
-    "*.constant": {
-      "fontStyle": ""
-    },
-    "builtinConstant": {
-      "fontStyle": ""
-    },
-    "*.builtin": {
-      "fontStyle": ""
-    },
-    "*.deprecated": {
-      "fontStyle": "strikethrough"
-    },
-    // "comment": "#6d6d6d",
-    "label": {
-      "fontStyle": "bold"
-    }
-  },
-  "tokenColors": [
-    // {
-    //   "name": "Control Flow",
-    //   "scope": ["keyword.control.flow"],
-    //   "settings": {
-    //     "fontStyle": "bold"
-    //   }
-    // }
-    // {
-    //   "name": "Comments",
-    //   "scope": ["comment", "punctuation.definition.comment"],
-    //   "settings": {
-    //     // "fontStyle": "italic",
-    //     "foreground": "#6d6d6d"
-    //   }
-    // },
-  ]
+  }
 }
