@@ -201,7 +201,7 @@
   "tokenColors": [
     {
       "name": "Control Flow",
-      "scope": ["keyword.control.flow"],
+      "scope": ["keyword.control"],
       "settings": {
         "fontStyle": "bold"
       }
