@@ -1,0 +1,49 @@
+* {
+    color: #000000;
+}
+
+body {
+    background-color: #F5F5E1;
+    font-family: 'IBM Plex Sans', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+p {
+    display: block;
+    width: 600px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+#subheader h1,
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+
+    font-weight: 500;
+}
+
+#subheader h2 {
+    min-width: 400px;
+}
+
+#screenshot {
+    max-width: 100%;
+    min-width: 600px;
+    width: 800px;
+    height: auto;
+}
+
+#license {
+    font-size: 14px;
+}
